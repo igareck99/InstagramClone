@@ -1,5 +1,6 @@
 import FirebaseStorage
 
+// MARK: - StoredManager
 
 class StoredManager {
     
