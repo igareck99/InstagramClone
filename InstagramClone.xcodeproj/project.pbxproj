@@ -31,7 +31,8 @@
 		8B17F11128CA8DCF006069D2 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B17F11028CA8DCF006069D2 /* DatabaseManager.swift */; };
 		8B17F11328CA8E1E006069D2 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B17F11228CA8E1E006069D2 /* AuthManager.swift */; };
 		8B17F11528CA8E3E006069D2 /* StoredManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B17F11428CA8E3E006069D2 /* StoredManager.swift */; };
-		8BFFB10028CBDBF100038392 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB0FF28CBDBF100038392 /* Extensions.swift */; };
+		8BFFB10028CBDBF100038392 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB0FF28CBDBF100038392 /* UIView+Extensions.swift */; };
+		8BFFB10328CBE29500038392 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB10228CBE29500038392 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +63,8 @@
 		8B17F11028CA8DCF006069D2 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		8B17F11228CA8E1E006069D2 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8B17F11428CA8E3E006069D2 /* StoredManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredManager.swift; sourceTree = "<group>"; };
-		8BFFB0FF28CBDBF100038392 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BFFB0FF28CBDBF100038392 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8BFFB10228CBE29500038392 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F5555E7D79906100B9D661D4 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,12 +148,10 @@
 		8B17F0ED28CA7929006069D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8BFFB10428CBE2AD00038392 /* Managers */,
+				8BFFB10128CBE27800038392 /* Extensions */,
 				8B17F0D628CA74B0006069D2 /* AppDelegate.swift */,
 				8B17F0D828CA74B0006069D2 /* SceneDelegate.swift */,
-				8B17F11028CA8DCF006069D2 /* DatabaseManager.swift */,
-				8B17F11228CA8E1E006069D2 /* AuthManager.swift */,
-				8B17F11428CA8E3E006069D2 /* StoredManager.swift */,
-				8BFFB0FF28CBDBF100038392 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -199,6 +199,25 @@
 				8B17F0FE28CA86E0006069D2 /* RegistrationViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8BFFB10128CBE27800038392 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB0FF28CBDBF100038392 /* UIView+Extensions.swift */,
+				8BFFB10228CBE29500038392 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8BFFB10428CBE2AD00038392 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B17F11028CA8DCF006069D2 /* DatabaseManager.swift */,
+				8B17F11228CA8E1E006069D2 /* AuthManager.swift */,
+				8B17F11428CA8E3E006069D2 /* StoredManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		F92E995F124CE66AFF70AF9C /* Frameworks */ = {
@@ -340,7 +359,8 @@
 				8B17F10728CA873F006069D2 /* SearchViewController.swift in Sources */,
 				8B17F0F828CA8688006069D2 /* ProfileViewController.swift in Sources */,
 				8B17F0F428CA79B8006069D2 /* CameraViewController.swift in Sources */,
-				8BFFB10028CBDBF100038392 /* Extensions.swift in Sources */,
+				8BFFB10028CBDBF100038392 /* UIView+Extensions.swift in Sources */,
+				8BFFB10328CBE29500038392 /* String+Extensions.swift in Sources */,
 				8B17F10B28CA8770006069D2 /* PostEditorViewController.swift in Sources */,
 				8B17F10128CA86FA006069D2 /* PostViewController.swift in Sources */,
 				8B17F10528CA8732006069D2 /* ListViewController.swift in Sources */,
