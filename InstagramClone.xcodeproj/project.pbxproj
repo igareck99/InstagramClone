@@ -43,6 +43,7 @@
 		8BFFB11828CD0FD900038392 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB11728CD0FD900038392 /* FormTableViewCell.swift */; };
 		8BFFB11A28CD0FEA00038392 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB11928CD0FEA00038392 /* PhotoCollectionViewCell.swift */; };
 		8BFFB11C28CD52D700038392 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB11B28CD52D700038392 /* Models.swift */; };
+		8BFFB11F28CD5C2700038392 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB11E28CD5C2700038392 /* UserFollowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		8BFFB11728CD0FD900038392 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		8BFFB11928CD0FEA00038392 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BFFB11B28CD52D700038392 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8BFFB11E28CD5C2700038392 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		F5555E7D79906100B9D661D4 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -278,6 +280,7 @@
 			children = (
 				8BFFB11728CD0FD900038392 /* FormTableViewCell.swift */,
 				8BFFB11928CD0FEA00038392 /* PhotoCollectionViewCell.swift */,
+				8BFFB11E28CD5C2700038392 /* UserFollowTableViewCell.swift */,
 			);
 			path = OtherCells;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				8B17F0FF28CA86E0006069D2 /* RegistrationViewController.swift in Sources */,
 				8BFFB11A28CD0FEA00038392 /* PhotoCollectionViewCell.swift in Sources */,
 				8B17F0F628CA867E006069D2 /* NotificationViewController.swift in Sources */,
+				8BFFB11F28CD5C2700038392 /* UserFollowTableViewCell.swift in Sources */,
 				8B17F11528CA8E3E006069D2 /* StoredManager.swift in Sources */,
 				8B17F10D28CA8781006069D2 /* PublishPostViewController.swift in Sources */,
 				8B17F0D928CA74B0006069D2 /* SceneDelegate.swift in Sources */,
